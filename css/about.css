@@ -1,0 +1,138 @@
+/*  general */  
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+} 
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.clearfix {
+    clear: both;
+}
+/* head */
+.head {
+    background-color: #35424a;
+    padding: 15px;
+    border-bottom: 3px solid coral;
+}
+.head h1  {
+    color: #fff;
+    display: inline-block;
+}
+.head h1 span {
+    color: #ff7f50;
+}
+.nav {
+    float: right;
+    list-style-type: disc;
+    text-align: center;
+}
+.nav li {
+    display: inline-block;
+    text-align: -webkit-match-parent;
+}
+.nav li a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 25px 5px;
+    padding-bottom: 0;
+}
+.nav #active {
+    color: coral;
+}
+.nav li a:hover {
+    color: #ff7f50;
+}
+/* main */
+
+.main {
+    background-image: url(	https://codingschooll.netlify.app/images/65254733_330694221155783_1751478867215777792_n.jpg);
+    background-size: cover;
+    background-position: top;
+    text-align: center;
+    color: azure;
+    padding: 120px;
+    height: 80vh;
+}
+.main h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.main p {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.newsletter {
+    background-color: #35424a;
+    color: #fff;
+    padding: 15px;
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+}
+.newsletter h2 {
+    float: left;
+    font-size: 25px;
+
+}
+.subscribe {
+    text-align: end;
+}
+.email {
+    padding: 5px;
+}
+.btn {
+    padding: 7px 15px;
+    background-color: coral;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+/*  footer */
+.footer {
+    background-color: #ff7f50;
+    text-align: center;
+    padding: 30px;
+    color: #fff;
+    
+}
+
+.about {
+    padding: 30px;
+}
+.about h3 {
+    padding: 10px;
+    margin-top: 30px;
+}
+.information {
+    margin: 20px;
+    background-color:#35424a;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 0;
+}
+.about-description {
+    float: left;
+    width: 60%;
+}
+.about-description-side  {
+    float: right;
+    width: 35%;
+    background-color: #35424a;
+    padding: 15px 25px;
+    color: #fff;
+    margin: 10px 15px;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-right: 0;
+}
+
+
